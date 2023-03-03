@@ -8,65 +8,71 @@ body {
   background-color: #0a141d;
   font-family: "Helvetica";
   color: white;
-  padding: 50px 240px;
+  display: flex;
   width: 100vw;
   min-height: 100vh;
 }
 
-.top-status {
+.main {
+  align-items: center;
+  margin: 50px auto;
+  width: 800px;
+}
+
+.topbar-container {
+  display: flex;
+}
+
+.topbar-status {
+  font-family: "Menlo";
   font-size: 12px;
   width: fit-content;
   padding: 5px;
   margin-right: 8px;
 }
 
-.previous-status {
-  color: #57e2da;
-  border: 1px solid #57e2da;
-}
 .current-status {
   color: orange;
   border: 1px solid orange;
 }
 
-.bio {
+.bio-text {
   font-size: 28px;
-  font-family: "Menlo";
   margin-top: 30px;
-  margin-bottom: 60px;
-  line-height: 32px;
+  margin-bottom: 20px;
 }
 
-.bio a {
-  color: white;
+.social-links a {
+  color: grey;
+  font-size: 14px;
 }
 
-.bio a:hover {
-  color: rgb(206, 206, 206);
+.social-links a:hover {
+  color: rgb(96, 96, 96);
 }
 
-.topbar {
-  display: flex;
+.bio-box {
+  margin-bottom: 70px;
 }
 
 .section-box {
   margin-bottom: 50px;
 }
 
-.sub-title {
-  font-size: 20px;
+.section-title {
+  font-size: 18px;
   margin-bottom: 16px;
   color: white;
 }
 
-.sub-content {
+.experience-description {
   font-size: 16px;
   color: gray;
   line-height: 20px;
   margin-left: 10px;
 }
 
-.project-content {
+.project-description {
   font-size: 16px;
   color: gray;
   line-height: 20px;
@@ -74,19 +80,45 @@ body {
   margin-left: 10px;
 }
 
-.project-content a {
+.project-description a {
   color: #57e2da;
   font-weight: bold;
 }
 
-.project-content a:hover {
+.project-description a:hover {
   color: #1aa8a1;
   font-weight: bold;
 }
 
-.footer {
-  margin-top: 100px;
-  margin-bottom: 20px;
-  font-size: 12px;
-  color: gray;
+@media screen and (max-width: 1000px) {
+  .main {
+    width: 600px;
+  }
+
+  .bio-text {
+    font-size: 24px;
+  }
+
+  .bio-box {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    width: 100%;
+    margin: 20px 20px;
+  }
+
+  .bio-text {
+    font-size: 20px;
+  }
+
+  .section-box {
+    margin-bottom: 35px;
+  }
+
+  .social-links a {
+    font-size: 12px;
+  }
 }
