@@ -14,9 +14,19 @@ body {
 }
 
 .main {
-  align-items: center;
-  margin: 50px auto;
-  width: 800px;
+  width: 700px;
+  margin: 50px auto 0px;
+}
+
+#page-one {
+  min-height: 100vh;
+  border-bottom: 1px solid gray;
+}
+
+#page-two {
+  padding-top: 50px;
+  margin-bottom: 5px;
+  min-height: 100vh;
 }
 
 .topbar-container {
@@ -25,7 +35,7 @@ body {
 
 .topbar-status {
   font-family: "Menlo";
-  font-size: 12px;
+  font-size: 11px;
   width: fit-content;
   padding: 5px;
   margin-right: 8px;
@@ -37,22 +47,26 @@ body {
 }
 
 .bio-text {
-  font-size: 28px;
+  font-size: 32px;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.bio-subtext {
+  color: gray;
 }
 
 .social-links a {
-  color: grey;
+  color: #57e2da;
   font-size: 14px;
 }
 
 .social-links a:hover {
-  color: rgb(96, 96, 96);
+  color: #1aa8a1;
 }
 
 .bio-box {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 .section-box {
@@ -66,14 +80,14 @@ body {
 }
 
 .experience-description {
-  font-size: 16px;
+  font-size: 14px;
   color: gray;
   line-height: 20px;
   margin-left: 10px;
 }
 
 .project-description {
-  font-size: 16px;
+  font-size: 14px;
   color: gray;
   line-height: 20px;
   margin-bottom: 38px;
@@ -90,6 +104,21 @@ body {
   font-weight: bold;
 }
 
+.strava-container iframe {
+  transform-origin: top left;
+  scale: calc(0.75);
+}
+
+.scroll-button {
+  font-size: 12px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  border-width: 1px;
+  padding: 5px;
+  border-color: gray;
+  color: gray;
+}
+
 @media screen and (max-width: 1000px) {
   .main {
     width: 600px;
@@ -100,7 +129,7 @@ body {
   }
 
   .bio-box {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 

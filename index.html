@@ -8,85 +8,116 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <script src="index.js"></script>
+    <script src="src/index.js"></script>
     <div class="main">
-      <!-- Topbar -->
-      <div class="topbar-container">
-        <p class="topbar-status current-status">Currently: Studying @Unimelb</p>
-      </div>
+      <!-- Page one -->
+      <div id="page-one">
+        <!-- Topbar -->
+        <div class="topbar-container">
+          <p class="topbar-status current-status">
+            Currently: Studying @Unimelb
+          </p>
+        </div>
 
-      <!-- Bio -->
-      <div class="bio-box">
-        <p class="bio-text">
-          Hi, I’m Leon Wu 👋
-          <br />
-          □ Full-stack developer in 🇦🇺 Melbourne, Australia
-          <br />
-          □ Interested in elegant UX and coding for good 🤝
-        </p>
+        <!-- Bio -->
+        <div class="bio-box">
+          <p class="bio-text">Hi, I’m Leon Wu 👋</p>
+          <p class="bio-subtext" style="margin-bottom: 10px">
+            Full-stack developer in 🇦🇺 Melbourne, Australia. Interested in
+            elegant UX and coding for good 🤝 When I'm not on VSCode, find me on
+            the tennis court or at a parkrun 🏃🏽
+          </p>
+          <div class="social-links" style="margin-bottom: 30px">
+            <a href="https://github.com/l3onwu" target="_blank">Github </a>/<a
+              href="https://www.linkedin.com/in/leon-wu-160b5744/"
+              target="_blank"
+            >
+              Linkedin</a
+            >
+          </div>
+        </div>
 
-        <div class="social-links">
-          <a href="https://github.com/l3onwu" target="_blank">Github </a>/<a
-            href="https://www.linkedin.com/in/leon-wu-160b5744/"
-            target="_blank"
-          >
-            Linkedin</a
-          >
+        <!-- Scroll down -->
+        <button class="scroll-button" onclick="scrollToPageTwo()">
+          See experience
+        </button>
+
+        <!-- Strava -->
+        <div class="strava-container">
+          <p class="section-title">My Strava Runs</p>
+          <iframe
+            height="454"
+            width="300"
+            frameborder="0"
+            allowtransparency="true"
+            scrolling="no"
+            src="https://www.strava.com/athletes/28739325/latest-rides/eae84ef4939a499efeb6fd55c37dccfa19c1ea99"
+          ></iframe>
         </div>
       </div>
 
-      <!-- Experience -->
-      <div class="section-box">
-        <p class="section-title">Experience</p>
+      <!-- Page two -->
+      <div id="page-two">
+        <!-- Experience -->
+        <div class="section-box">
+          <p class="section-title">Experience</p>
 
-        <p class="experience-description">
-          □ Summer 2022 - Software Engineer Intern - Australian New Zealand Bank
-          (ANZ)
-        </p>
+          <p class="experience-description">
+            □ Summer 2022 - Software Engineer Intern - Australian New Zealand
+            Bank (ANZ)
+          </p>
 
-        <p class="experience-description">
-          ■ 2023 - Master of Information Technology - University of Melbourne
-        </p>
+          <p class="experience-description">
+            ■ 2023 - Master of Information Technology - University of Melbourne
+          </p>
 
-        <p class="experience-description">
-          □ 2018 - Bachelor of Arts - Columbia University
-        </p>
-      </div>
-
-      <!-- Projects -->
-      <div class="section-box">
-        <p class="section-title">Projects</p>
-
-        <div class="project-description">
-          <a href="https://skyshot.vercel.app" target="_blank"
-            >[Skyshot - web app]</a
-          >
-          - [React | Google Maps API] - In order to schedule tennis hitting
-          sessions, I built a React weather app that displays the forecast in a
-          calendar view. Most weather apps show daily forecasts, but I wanted to
-          view hourly weather across seven days in one screen. I used React with
-          Typescript for the frontend, and axios to call the OpenMeteo API.
-          <br /><br />
-          I then managed the state with SWR, wrote a function to split the data
-          into hourly objects, and conditionally styled the ‘calendar’ grid to
-          color boxes to show precipitation and temperature trends.
+          <p class="experience-description">
+            □ 2018 - Bachelor of Arts - Columbia University
+          </p>
         </div>
 
-        <div class="project-description">
-          <a href="https://github.com/l3onwu/wa-covid-sites" target="_blank"
-            >[WACovidSites - web app]</a
-          >
-          - [React | Axios | Google Sheets API] - During the pandemic, as WA
-          opened its borders, government contact tracing became overwhelmed and
-          stopped reporting exposure sites. A community-led initiative began,
-          and people self-reported exposure sites to a Google Spreadsheet. I
-          addressed a real community need, by building a user-friendly UI in
-          React, that extracted data from the spreadsheet with Google’s API.
-          <br /><br />
-          I displayed this data in a clean, sortable table, made it responsive
-          on mobile, and added a feature to indicate the most recently added
-          sites. In total, I reached 20,000 views across a month, before the
-          community data collection project was discontinued.
+        <!-- Projects -->
+        <div class="section-box">
+          <p class="section-title">Projects</p>
+
+          <div class="project-description">
+            <a href="https://skyshot.vercel.app" target="_blank"
+              >[Skyshot - web app]</a
+            >
+            - [React | Google Maps API] - In order to schedule tennis hitting
+            sessions, I built a React weather app that displays the forecast in
+            a calendar view. Most weather apps show daily forecasts, but I
+            wanted to view hourly weather across seven days in one screen. I
+            used React with Typescript for the frontend, and axios to call the
+            OpenMeteo API.
+            <br /><br />
+            I then managed the state with SWR, wrote a function to split the
+            data into hourly objects, and conditionally styled the ‘calendar’
+            grid to color boxes to show precipitation and temperature trends.
+          </div>
+
+          <div class="project-description">
+            <a href="https://github.com/l3onwu/wa-covid-sites" target="_blank"
+              >[WACovidSites - web app]</a
+            >
+            - [React | Axios | Google Sheets API] - During the pandemic, as WA
+            opened its borders, government contact tracing became overwhelmed
+            and stopped reporting exposure sites. A community-led initiative
+            began, and people self-reported exposure sites to a Google
+            Spreadsheet. I addressed a real community need, by building a
+            user-friendly UI in React, that extracted data from the spreadsheet
+            with Google’s API.
+            <br /><br />
+            I displayed this data in a clean, sortable table, made it responsive
+            on mobile, and added a feature to indicate the most recently added
+            sites. In total, I reached 20,000 views across a month, before the
+            community data collection project was discontinued.
+          </div>
+
+          <!-- Scroll up -->
+          <button class="scroll-button" onclick="scrollToPageOne()">
+            Scroll to top
+          </button>
         </div>
       </div>
     </div>
