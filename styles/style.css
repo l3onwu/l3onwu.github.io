@@ -47,13 +47,13 @@ body {
 }
 
 .bio-text {
-  font-size: 36px;
+  font-size: 40px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
 .bio-subtext {
-  color: gray;
+  color: rgb(160, 160, 160);
   font-size: 16px;
   line-height: 22px;
 }
@@ -76,21 +76,21 @@ body {
 }
 
 .section-title {
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 16px;
   color: white;
 }
 
 .experience-description {
   font-size: 16px;
-  color: gray;
+  color: rgb(160, 160, 160);
   line-height: 22px;
   margin-left: 10px;
 }
 
 .project-description {
   font-size: 16px;
-  color: gray;
+  color: rgb(160, 160, 160);
   line-height: 22px;
   margin-bottom: 38px;
   margin-left: 10px;
@@ -115,10 +115,17 @@ body {
   font-size: 14px;
   margin-bottom: 30px;
   background-color: transparent;
-  border-width: 1px;
-  padding: 5px;
-  border-color: gray;
-  color: gray;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 7px;
+  border-color: #57e2da;
+  color: #57e2da;
+}
+
+.scroll-button:hover {
+  cursor: pointer;
+  background-color: #57e2da;
+  color: black;
 }
 
 @media screen and (max-width: 1000px) {
@@ -127,7 +134,7 @@ body {
   }
 
   .bio-text {
-    font-size: 24px;
+    font-size: 36px;
   }
 
   .bio-box {
@@ -142,7 +149,7 @@ body {
   }
 
   .bio-text {
-    font-size: 20px;
+    font-size: 36px;
   }
 
   .section-box {
