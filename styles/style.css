@@ -50,13 +50,14 @@ body {
 .bio-text {
   font-size: 40px;
   margin-top: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .bio-subtext {
   color: rgb(160, 160, 160);
   font-size: 16px;
   line-height: 22px;
+  margin-bottom: 15px;
 }
 
 .social-links a {
