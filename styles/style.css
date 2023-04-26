@@ -19,8 +19,9 @@ body {
 }
 
 #page-one {
-  min-height: 100vh;
-  border-bottom: 1px solid gray;
+  /* min-height: 100vh; */
+  border-bottom: 0.5px solid gray;
+  padding-bottom: 20px;
 }
 
 #page-two {
@@ -72,7 +73,7 @@ body {
 }
 
 .section-box {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .section-title {
