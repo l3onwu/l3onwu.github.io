@@ -78,7 +78,7 @@ body {
 
 .section-title {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: white;
 }
 
@@ -114,6 +114,11 @@ body {
 .project-description a:hover {
   color: #1aa8a1;
   font-weight: bold;
+}
+
+.tech-stack-description {
+  font-size: 12px;
+  margin-top: 20px;
 }
 
 .strava-container iframe {
