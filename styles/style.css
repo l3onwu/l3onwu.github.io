@@ -34,7 +34,7 @@ body {
 }
 
 .topbar-status {
-  font-family: "Menlo";
+  font-family: "Menlo", monospace;
   font-size: 11px;
   width: fit-content;
   padding: 5px;
@@ -94,7 +94,7 @@ body {
   line-height: 22px;
   margin-bottom: 38px;
   margin-left: 10px;
-  background-color:#1f293794;
+  background-color: #1f293794;
   padding: 20px;
   border-radius: 3px;
 }
