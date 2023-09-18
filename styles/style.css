@@ -5,13 +5,13 @@
 }
 
 body {
-  background-color: #0b0b0b;
+  background-color: #0a141d;
   font-family: "Helvetica";
   color: rgb(255, 255, 255);
   display: flex;
   width: 100vw;
   min-height: 100vh;
-  color: #b0a99b;
+  color: #a0a0a0;
 }
 
 .main {
@@ -59,7 +59,7 @@ body {
 }
 
 .social-links a {
-  color: #8a8479;
+  color: #a0a0a0;
   font-size: 12px;
   font-weight: 500;
 }
@@ -97,8 +97,8 @@ body {
   font-weight: 400;
   padding: 10px 0px 30px 0px;
   line-height: 15px;
-  background-color: #1e1e1e;
-  color: #b0a99b;
+  background-color: #1f293794;
+  color: #a0a0a0;
   padding: 15px;
   border-radius: 12px;
   margin-bottom: 30px;
@@ -111,7 +111,7 @@ body {
 }
 
 .project-description a {
-  color: #ffffff;
+  color: #55dfd7;
   text-decoration: none;
 }
 
@@ -124,7 +124,7 @@ body {
   font-weight: 400;
   margin-top: 20px;
   width: fit-content;
-  color: #b0a99b;
+  color: #a0a0a0;
   padding: 2px;
   border-radius: 2px;
 }
