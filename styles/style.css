@@ -24,6 +24,7 @@ body {
 
 #page-two {
   padding-top: 20px;
+  padding-bottom: 50px;
   margin-bottom: 5px;
 }
 
@@ -59,7 +60,7 @@ body {
 }
 
 .social-links a {
-  color: #63788a;
+  color: #6989a5;
   font-size: 12px;
   font-weight: 500;
 }
@@ -78,10 +79,11 @@ body {
 }
 
 .section-title {
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 500;
   margin-bottom: 15px;
-  color: white;
+  color: #c1d0dc;
+  text-transform: uppercase;
   padding-bottom: 10px;
   border-bottom: 0.5px solid #4f4b44;
 }
@@ -92,6 +94,11 @@ body {
   line-height: 20px;
 }
 
+.link-style {
+  text-decoration: none;
+  padding: 0;
+}
+
 .project-description {
   font-size: 15px;
   font-weight: 400;
@@ -100,23 +107,23 @@ body {
   color: #c1d0dc;
   padding: 15px;
   border-radius: 12px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.project-description:hover {
+  cursor: pointer;
+  background-color: #2d3b4c94;
 }
 
 .project-title {
+  color: #55dfd7;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 8px;
 }
 
-.project-description a {
-  color: #55dfd7;
-  /* color: white; */
+.project-description {
   text-decoration: none;
-}
-
-.project-description a:hover {
-  opacity: 0.8;
 }
 
 .tech-stack-description {
