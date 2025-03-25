@@ -181,6 +181,7 @@ body {
   margin: 0 0 15px 0;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 5px;
+}
 
 @media screen and (max-width: 1000px) {
   .main {
@@ -197,7 +198,7 @@ body {
 @media screen and (max-width: 600px) {
   .main {
     width: 100%;
-    margin: 20px 20px;
+    margin: 30px 30px;
   }
 
   .bio-text {
