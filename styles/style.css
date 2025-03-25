@@ -112,7 +112,7 @@ body {
   line-height: 20px;
   background-color: #1e253194;
   color: #c1d0dc;
-  padding: 25px;
+  padding: 20px 25px;
   border-radius: 12px;
   margin-bottom: 20px;
 }
@@ -140,26 +140,26 @@ body {
 }
 
 .project-title {
-  color: #55dfa1;
+  color: #55dfd7;
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 
 .project-description {
-  background-color: #1f372f94;
-  color: #c1dcd1;
+  background-color: #1e253194;
+  color: #dfe7ef;
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
-  padding: 15px;
+  padding: 25px;
   border-radius: 12px;
   margin-bottom: 20px;
 }
 
 .project-description:hover {
   cursor: pointer;
-  background-color: #2d4c4294;
+  background-color: #2d3b4c94;
 }
 
 .project-description {
@@ -171,8 +171,16 @@ body {
   font-weight: 400;
   margin-top: 10px;
   width: fit-content;
-  color: #69a58c;
+  color: #6989a5;
 }
+
+.project-screenshot {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 0 15px 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
 
 @media screen and (max-width: 1000px) {
   .main {
