@@ -15,7 +15,7 @@ body {
 }
 
 .main {
-  width: 750px;
+  width: 800px;
   margin: 40px auto 0px;
 }
 
@@ -47,21 +47,21 @@ body {
 
 .bio-text {
   color: white;
-  font-size: 26px;
+  font-size: 28px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
 .bio-subtext {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 300;
   line-height: 22px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .social-links a {
   color: #6989a5;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .bio-box {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   font-weight: 600;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .section-title {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
   margin-bottom: 15px;
   color: #c1d0dc;
@@ -89,7 +89,7 @@ body {
 }
 
 .experience-year {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 400;
   color: #6989a5;
 }
@@ -107,11 +107,7 @@ body {
 }
 
 .work-section-box {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 20px;
   background-color: #1e253194;
-  color: #c1d0dc;
   padding: 20px 25px;
   border-radius: 12px;
   margin-bottom: 20px;
@@ -126,13 +122,13 @@ body {
 }
 
 .work-title {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 6px;
 }
 
 .work-description {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 20px;
   color: #6989a5;
@@ -141,7 +137,7 @@ body {
 
 .project-title {
   color: #55dfd7;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 12px;
 }
@@ -149,7 +145,7 @@ body {
 .project-description {
   background-color: #1e253194;
   color: #dfe7ef;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 20px;
   padding: 25px;
